@@ -1,0 +1,23 @@
+.h2{
+    width: 40%;
+    margin: auto;
+    font-family: 'Pattaya', sans-serif;
+    font-size: 60px;
+
+}
+.login_btn {
+    background-color: lighten($color: black, $amount: 30);
+    color: white;
+    padding: 1.2rem 4.8rem;
+    border-radius: 50%;
+    font-size: 1.2rem;
+    top: 0;
+    position: relative;
+    transition: top ease 0.5s;
+    font-family: 'Nunito', sans-serif;
+    font-style: bold;
+}
+.login_btn:hover {
+    box-shadow: 5px 20px lighten($color: black, $amount: 5);
+    top: -10px;
+}
