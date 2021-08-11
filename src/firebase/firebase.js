@@ -1,12 +1,12 @@
 import firebase from 'firebase';
 var firebaseConfig = {
-    apiKey: "AIzaSyCMffZuz0QLLtGQG11uODdDr0l1douZtpE",
-    authDomain: "authentication-f486e.firebaseapp.com",
-    projectId: "authentication-f486e",
-    storageBucket: "authentication-f486e.appspot.com",
-    messagingSenderId: "607260843861",
-    appId: "1:607260843861:web:ebff5cc0bd0395466e19dc",
-    measurementId: "G-6MQ9N0DZTE"
+    apiKey: process.env.REACT_APP_API_KEY,
+    authDomain: process.env.REACT_APP_AUTH_DOMAIN,
+    projectId: process.env.REACT_APP_PROJECT_ID,
+    storageBucket: process.env.REACT_APP_STORAGE_BUCKET,
+    messagingSenderId: process.env.REACT_APP_MESSAGING_SENDER_ID,
+    appId: process.env.REACT_APP_APP_ID,
+    measurementId: process.env.REACT_APP_MEASUREMENT_ID
 };
 // Initialize Firebase
 firebase.initializeApp(firebaseConfig);
